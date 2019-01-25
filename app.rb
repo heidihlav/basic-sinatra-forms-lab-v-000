@@ -10,7 +10,7 @@ class App < Sinatra::Base
     @name = params[:name]
     @coach = params[:coach]
     @pg = params[:pg]
-binding.pry
+# binding.pry
     erb :team
   end
 
